@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/1 Intro.unity
     guid: 8e6793b0c916fde4f903774ffeaf2712
   - enabled: 1
-    path: Assets/Scenes/2 MainGameCopyAsh.unity
-    guid: 53855a374ef4866479a130daaaa62fb8
-  - enabled: 1
-    path: Assets/Scenes/4 Ending.unity
-    guid: 03354b41aaee2674baa172afa5f998cd
+    path: Assets/Scenes/2 MainGame 1.unity
+    guid: 1589a8c9a38c6be418c3b3fef8a416fe
   m_configObjects: {}

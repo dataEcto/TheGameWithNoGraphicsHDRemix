@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Game Center Admin\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Game Center Admin\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TheGameWithNoGraphics.1169627143.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Game Center Admin\Documents\Unity Projects\Major Studio Fall\The-Game-With-No-Graphics\TheGameWithNoGraphics" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+    <e p="C:\Users\Game Center Admin\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TheGameWithNoGraphics.965037733.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Game Center Admin\Documents\TheGameWithNoGraphicsHDRemix\TheGameWithNoGraphics" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AudioManager" t="Include">
@@ -36,10 +35,49 @@
           </e>
           <e p="Scripts" t="Include">
             <e p="Commands" t="Include">
+              <e p="AssertCommand.cs" t="Include" />
               <e p="Break.cs" t="Include" />
               <e p="Call.cs" t="Include" />
               <e p="CallMethod.cs" t="Include" />
               <e p="ClearMenu.cs" t="Include" />
+              <e p="Collection" t="Include">
+                <e p="CollectionBaseCommand.cs" t="Include" />
+                <e p="CollectionBaseIntCommand.cs" t="Include" />
+                <e p="CollectionBaseTwoCollectionCommand.cs" t="Include" />
+                <e p="CollectionBaseVarAndIntCommand.cs" t="Include" />
+                <e p="CollectionBaseVarCommand.cs" t="Include" />
+                <e p="CollectionCommandAdd.cs" t="Include" />
+                <e p="CollectionCommandAddAll.cs" t="Include" />
+                <e p="CollectionCommandClear.cs" t="Include" />
+                <e p="CollectionCommandContains.cs" t="Include" />
+                <e p="CollectionCommandContainsAll.cs" t="Include" />
+                <e p="CollectionCommandContainsAny.cs" t="Include" />
+                <e p="CollectionCommandCopy.cs" t="Include" />
+                <e p="CollectionCommandCount.cs" t="Include" />
+                <e p="CollectionCommandElement.cs" t="Include" />
+                <e p="CollectionCommandExclusive.cs" t="Include" />
+                <e p="CollectionCommandFind.cs" t="Include" />
+                <e p="CollectionCommandInsert.cs" t="Include" />
+                <e p="CollectionCommandIntersection.cs" t="Include" />
+                <e p="CollectionCommandOccurrences.cs" t="Include" />
+                <e p="CollectionCommandRemove.cs" t="Include" />
+                <e p="CollectionCommandRemoveAllOf.cs" t="Include" />
+                <e p="CollectionCommandRemoveAt.cs" t="Include" />
+                <e p="CollectionCommandReserve.cs" t="Include" />
+                <e p="CollectionCommandResize.cs" t="Include" />
+                <e p="CollectionCommandReverse.cs" t="Include" />
+                <e p="CollectionCommandShuffle.cs" t="Include" />
+                <e p="CollectionCommandSort.cs" t="Include" />
+                <e p="CollectionCommandUnique.cs" t="Include" />
+                <e p="CollectionRandom.cs" t="Include" />
+                <e p="CollectionRandomBag.cs" t="Include" />
+                <e p="ForEach.cs" t="Include" />
+                <e p="GameObjectFind.cs" t="Include" />
+                <e p="Physics2DCast.cs" t="Include" />
+                <e p="Physics2DOverlap.cs" t="Include" />
+                <e p="PhysicsCast.cs" t="Include" />
+                <e p="PhysicsOverlap.cs" t="Include" />
+              </e>
               <e p="Comment.cs" t="Include" />
               <e p="Condition.cs" t="Include" />
               <e p="ControlAudio.cs" t="Include" />
@@ -50,6 +88,7 @@
               <e p="DebugLog.cs" t="Include" />
               <e p="DeleteSaveKey.cs" t="Include" />
               <e p="Destroy.cs" t="Include" />
+              <e p="DestroyOnLoad.cs" t="Include" />
               <e p="Else.cs" t="Include" />
               <e p="ElseIf.cs" t="Include" />
               <e p="End.cs" t="Include" />
@@ -66,6 +105,7 @@
               <e p="Input" t="Include">
                 <e p="GetAxis.cs" t="Include" />
                 <e p="GetKey.cs" t="Include" />
+                <e p="GetMousePosition.cs" t="Include" />
               </e>
               <e p="InvokeEvent.cs" t="Include" />
               <e p="InvokeMethod.cs" t="Include" />
@@ -83,6 +123,7 @@
               <e p="LoadVariable.cs" t="Include" />
               <e p="LookFrom.cs" t="Include" />
               <e p="LookTo.cs" t="Include" />
+              <e p="LoopRange.cs" t="Include" />
               <e p="LuaCondition.cs" t="Include" />
               <e p="LuaElseIf.cs" t="Include" />
               <e p="LuaIf.cs" t="Include" />
@@ -126,6 +167,29 @@
                 <e p="FungusPriorityDecrease.cs" t="Include" />
                 <e p="FungusPriorityIncrease.cs" t="Include" />
                 <e p="FungusPriorityReset.cs" t="Include" />
+              </e>
+              <e p="Property" t="Include">
+                <e p="AnimatorProperty.cs" t="Include" />
+                <e p="AudioSourceProperty.cs" t="Include" />
+                <e p="CollectionProperty.cs" t="Include" />
+                <e p="Collider2DProperty.cs" t="Include" />
+                <e p="ColliderProperty.cs" t="Include" />
+                <e p="Collision2DProperty.cs" t="Include" />
+                <e p="CollisionProperty.cs" t="Include" />
+                <e p="ColorProperty.cs" t="Include" />
+                <e p="ControllerColliderHitProperty.cs" t="Include" />
+                <e p="GameObjectProperty.cs" t="Include" />
+                <e p="MaterialProperty.cs" t="Include" />
+                <e p="Matrix4x4Property.cs" t="Include" />
+                <e p="QuaternionProperty.cs" t="Include" />
+                <e p="Rigidbody2DProperty.cs" t="Include" />
+                <e p="RigidbodyProperty.cs" t="Include" />
+                <e p="SpriteProperty.cs" t="Include" />
+                <e p="TextureProperty.cs" t="Include" />
+                <e p="TransformProperty.cs" t="Include" />
+                <e p="Vector2Property.cs" t="Include" />
+                <e p="Vector3Property.cs" t="Include" />
+                <e p="Vector4Property.cs" t="Include" />
               </e>
               <e p="PunchPosition.cs" t="Include" />
               <e p="PunchRotation.cs" t="Include" />
@@ -193,10 +257,8 @@
               <e p="StopSwipe.cs" t="Include" />
               <e p="StopTween.cs" t="Include" />
               <e p="StopTweens.cs" t="Include" />
+              <e p="ThrowException.cs" t="Include" />
               <e p="ToString.cs" t="Include" />
-              <e p="Transform" t="Include">
-                <e p="TransformProperty.cs" t="Include" />
-              </e>
               <e p="TweenUI.cs" t="Include" />
               <e p="VariableCondition.cs" t="Include" />
               <e p="Vector3" t="Include">
@@ -228,6 +290,8 @@
               <e p="MenuDialog.cs" t="Include" />
               <e p="MusicManager.cs" t="Include" />
               <e p="NarrativeLog.cs" t="Include" />
+              <e p="NarrativeLogEntryDisplay.cs" t="Include" />
+              <e p="NarrativeLogEntryUI.cs" t="Include" />
               <e p="NarrativeLogMenu.cs" t="Include" />
               <e p="Node.cs" t="Include" />
               <e p="Parallax.cs" t="Include" />
@@ -246,6 +310,7 @@
               <e p="WriterAudio.cs" t="Include" />
             </e>
             <e p="Editor" t="Include">
+              <e p="AnyVariableAndDataPairDrawer.cs" t="Include" />
               <e p="AssetModProcessor.cs" t="Include" />
               <e p="BasePopupWindowContent.cs" t="Include" />
               <e p="BlockEditor.cs" t="Include" />
@@ -258,6 +323,7 @@
               <e p="CommandListAdaptor.cs" t="Include" />
               <e p="ControlAudioEditor.cs" t="Include" />
               <e p="CustomGUI.cs" t="Include" />
+              <e p="CustomVariableDrawerLookup.cs" t="Include" />
               <e p="DialogInputEditor.cs" t="Include" />
               <e p="EditorExtensions.cs" t="Include" />
               <e p="EditorZoomArea.cs" t="Include" />
@@ -272,6 +338,8 @@
               <e p="FungusEditorPreferences.cs" t="Include" />
               <e p="FungusEditorResources.cs" t="Include" />
               <e p="FungusEditorResourcesGenerated.cs" t="Include" />
+              <e p="GenerateVariableHelper.cs" t="Include" />
+              <e p="GenerateVariableWindow.cs" t="Include" />
               <e p="HierarchyIcons.cs" t="Include" />
               <e p="InvokeEventEditor.cs" t="Include" />
               <e p="InvokeMethodEditor.cs" t="Include" />
@@ -292,12 +360,33 @@
               <e p="SayEditor.cs" t="Include" />
               <e p="SerializedPropertyExtensions.cs" t="Include" />
               <e p="SetVariableEditor.cs" t="Include" />
+              <e p="SolutionFileFixer.cs" t="Include" />
               <e p="SpriteMenuItems.cs" t="Include" />
               <e p="StageEditor.cs" t="Include" />
               <e p="VariableConditionEditor.cs" t="Include" />
               <e p="VariableEditor.cs" t="Include" />
               <e p="VariableListAdaptor.cs" t="Include" />
               <e p="VariableReferenceDrawer.cs" t="Include" />
+              <e p="VariableTypes" t="Include">
+                <e p="AnimatorVariableDrawer.cs" t="Include" />
+                <e p="AudioSourceVariableDrawer.cs" t="Include" />
+                <e p="CollectionVariableDrawer.cs" t="Include" />
+                <e p="Collider2DVariableDrawer.cs" t="Include" />
+                <e p="ColliderVariableDrawer.cs" t="Include" />
+                <e p="ColorVariableDrawer.cs" t="Include" />
+                <e p="GameObjectVariableDrawer.cs" t="Include" />
+                <e p="MaterialVariableDrawer.cs" t="Include" />
+                <e p="Matrix4x4VariableDrawer.cs" t="Include" />
+                <e p="QuaternionVariableDrawer.cs" t="Include" />
+                <e p="Rigidbody2DVariableDrawer.cs" t="Include" />
+                <e p="RigidbodyVariableDrawer.cs" t="Include" />
+                <e p="SpriteVariableDrawer.cs" t="Include" />
+                <e p="TextureVariableDrawer.cs" t="Include" />
+                <e p="TransformVariableDrawer.cs" t="Include" />
+                <e p="Vector2VariableDrawer.cs" t="Include" />
+                <e p="Vector3VariableDrawer.cs" t="Include" />
+                <e p="Vector4VariableDrawer.cs" t="Include" />
+              </e>
               <e p="ViewEditor.cs" t="Include" />
               <e p="WriteEditor.cs" t="Include" />
               <e p="WriterAudioEditor.cs" t="Include" />
@@ -337,7 +426,9 @@
             </e>
             <e p="Interfaces" t="Include">
               <e p="IBlockCaller.cs" t="Include" />
+              <e p="ICollectionCompatible.cs" t="Include" />
               <e p="IDialogInputListener.cs" t="Include" />
+              <e p="IFungusCollection.cs" t="Include" />
               <e p="ILocalizable.cs" t="Include" />
               <e p="IStringLocationIdentifier.cs" t="Include" />
               <e p="IUpdateable.cs" t="Include" />
@@ -354,6 +445,7 @@
               <e p="WriterSignals.cs" t="Include" />
             </e>
             <e p="Utils" t="Include">
+              <e p="AllVariableTypes.cs" t="Include" />
               <e p="BlockReference.cs" t="Include" />
               <e p="ConversationManager.cs" t="Include" />
               <e p="EventDispatcher.cs" t="Include" />
@@ -369,25 +461,52 @@
               <e p="TextTagParser.cs" t="Include" />
               <e p="TextTagToken.cs" t="Include" />
               <e p="TextVariationHandler.cs" t="Include" />
+              <e p="TMProLinkAnimator.cs" t="Include" />
+              <e p="TMProLinkAnimEffects.cs" t="Include" />
+              <e p="TMProLinkAnimLookup.cs" t="Include" />
               <e p="VariableReference.cs" t="Include" />
+              <e p="VariableUtil.cs" t="Include" />
             </e>
             <e p="VariableTypes" t="Include">
               <e p="AnimatorVariable.cs" t="Include" />
               <e p="AudioSourceVariable.cs" t="Include" />
+              <e p="BaseVariableProperty.cs" t="Include" />
               <e p="BooleanVariable.cs" t="Include" />
+              <e p="Collection" t="Include">
+                <e p="Collection.cs" t="Include" />
+                <e p="Collider2DCollection.cs" t="Include" />
+                <e p="ColliderCollection.cs" t="Include" />
+                <e p="FloatCollection.cs" t="Include" />
+                <e p="GameObjectCollection.cs" t="Include" />
+                <e p="GenericCollection.cs" t="Include" />
+                <e p="IntCollection.cs" t="Include" />
+                <e p="IntVarCollection.cs" t="Include" />
+                <e p="StringCollection.cs" t="Include" />
+                <e p="TransformCollection.cs" t="Include" />
+              </e>
+              <e p="CollectionVariable.cs" t="Include" />
+              <e p="Collider2DVariable.cs" t="Include" />
+              <e p="ColliderVariable.cs" t="Include" />
+              <e p="Collision2DVariable.cs" t="Include" />
+              <e p="CollisionVariable.cs" t="Include" />
               <e p="ColorVariable.cs" t="Include" />
+              <e p="ControllerColliderHitVariable.cs" t="Include" />
               <e p="FloatVariable.cs" t="Include" />
               <e p="GameObjectVariable.cs" t="Include" />
               <e p="IntegerVariable.cs" t="Include" />
               <e p="MaterialVariable.cs" t="Include" />
+              <e p="Matrix4x4Variable.cs" t="Include" />
               <e p="ObjectVariable.cs" t="Include" />
+              <e p="QuaternionVariable.cs" t="Include" />
               <e p="Rigidbody2DVariable.cs" t="Include" />
+              <e p="RigidbodyVariable.cs" t="Include" />
               <e p="SpriteVariable.cs" t="Include" />
               <e p="StringVariable.cs" t="Include" />
               <e p="TextureVariable.cs" t="Include" />
               <e p="TransformVariable.cs" t="Include" />
               <e p="Vector2Variable.cs" t="Include" />
               <e p="Vector3Variable.cs" t="Include" />
+              <e p="Vector4Variable.cs" t="Include" />
             </e>
           </e>
           <e p="Textures" t="Include">
@@ -443,8 +562,12 @@
               </e>
               <e p="Thirdparty" t="Include">
                 <e p="JSON" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="Fungus.FungusLuaJSONCheckerEditor.asmdef" t="Include" />
+                    <e p="JSONChecker.cs" t="Include" />
+                  </e>
                   <e p="JSONObject.cs" t="Include" />
-                  <e p="readme.txt" t="Include" />
+                  <e p="VectorTemplates.cs" t="Include" />
                 </e>
                 <e p="MoonSharp" t="Include">
                   <e p="Debugger" t="Include">
@@ -839,23 +962,94 @@
             </e>
           </e>
         </e>
+        <e p="FungusExamples" t="Include">
+          <e p="Attribution.txt" t="Include" />
+          <e p="FirstPerson" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ForceCursorVisible.cs" t="Include" />
+              <e p="FPDemoPriorityRouter.cs" t="Include" />
+              <e p="LookingAtDoor.cs" t="Include" />
+              <e p="SimpleForceMovement.cs" t="Include" />
+              <e p="SimpleMouseLook.cs" t="Include" />
+            </e>
+            <e p="Visuals" t="Include">
+              <e p="Google Poly" t="Include">
+                <e p="Button" t="Include">
+                  <e p="CC-BY.txt" t="Include" />
+                </e>
+                <e p="Door" t="Include">
+                  <e p="CC-BY.txt" t="Include" />
+                </e>
+                <e p="Key" t="Include">
+                  <e p="CC-BY.txt" t="Include" />
+                </e>
+                <e p="Lock" t="Include">
+                  <e p="CC-BY.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="FungusExamples.asmdef" t="Include" />
+          <e p="FungusLua" t="Include">
+            <e p="Bindings" t="Include">
+              <e p="CustomScript.cs" t="Include" />
+            </e>
+            <e p="Localization" t="Include">
+              <e p="stringtable.txt" t="Include" />
+            </e>
+            <e p="Narrative" t="Include">
+              <e p="Resources" t="Include">
+                <e p="Lua" t="Include">
+                  <e p="junglestory.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="FungusTown" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="MonoBehEvents" t="Include">
+            <e p="SpriteColorChangeFromFungusMouseEvent.cs" t="Include" />
+          </e>
+          <e p="Sherlock" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="TextMeshPro" t="Include">
+            <e p="TMProLinkStylingDemo.cs" t="Include" />
+          </e>
+          <e p="TheFacility" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="aleo" t="Include">
+                <e p="SIL Open Font License.txt" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="EndCollider.cs" t="Include" />
           <e p="EndScene.cs" t="Include" />
           <e p="PlayerLook.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="SceneTransistions.cs" t="Include" />
+          <e p="textFacePlayer.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="PauseMenuScript.cs" t="Include" />
           </e>
         </e>
         <e p="Tests" t="Include">
           <e p="Editor" t="Include">
+            <e p="FungusCollectionTests.cs" t="Include" />
             <e p="FungusConversationParseTests.cs" t="Include" />
+            <e p="FungusEditorTests.asmdef" t="Include" />
             <e p="FungusPrioritySignalsTest.cs" t="Include" />
             <e p="FungusTextVariationSelectionTests.cs" t="Include" />
             <e p="GenerateEverythingMenuItem.cs" t="Include" />
+            <e p="TestUtils.cs" t="Include" />
             <e p="TextTagParserTests.cs" t="Include" />
+          </e>
+          <e p="PlayMode" t="Include">
+            <e p="FungusPlayModeTest.cs" t="Include" />
+            <e p="FungusPlayModeTests.asmdef" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
@@ -931,9 +1125,13 @@
       </e>
       <e p="Fungus.csproj" t="IncludeRecursive" />
       <e p="Fungus.FungusLuaEditor.csproj" t="IncludeRecursive" />
+      <e p="Fungus.FungusLuaJSONCheckerEditor.csproj" t="IncludeRecursive" />
       <e p="Fungus.LineEndingsEditor.csproj" t="IncludeRecursive" />
       <e p="Fungus.UsfxrEditor.csproj" t="IncludeRecursive" />
       <e p="FungusEditor.csproj" t="IncludeRecursive" />
+      <e p="FungusEditorTests.csproj" t="IncludeRecursive" />
+      <e p="FungusExamples.csproj" t="IncludeRecursive" />
+      <e p="FungusPlayModeTests.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />

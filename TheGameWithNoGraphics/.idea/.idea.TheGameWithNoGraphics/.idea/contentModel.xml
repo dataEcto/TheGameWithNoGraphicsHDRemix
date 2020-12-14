@@ -1026,6 +1026,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="End.cs" t="Include" />
           <e p="EndCollider.cs" t="Include" />
           <e p="EndScene.cs" t="Include" />
           <e p="PlayerLook.cs" t="Include" />

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="983b5d52-b3c8-48e0-a8a6-a576ed38d5b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheGameWithNoGraphics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheGameWithNoGraphics/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheGameWithNoGraphics/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheGameWithNoGraphics/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheGameWithNoGraphics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheGameWithNoGraphics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2 MainGame 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2 MainGame 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndCollider.cs" afterDir="false" />
-    </list>
+    <list default="true" id="983b5d52-b3c8-48e0-a8a6-a576ed38d5b4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,8 +32,8 @@
         <option value="$USER_HOME$/Mutation Station 2 Electric Boogaloo/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/SceneTransistions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PauseMenuScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/textFacePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/textFacePlayer.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +108,7 @@
       <workItem from="1590012279669" duration="1399000" />
       <workItem from="1590273133709" duration="3317000" />
       <workItem from="1607376897649" duration="2062000" />
-      <workItem from="1607981763256" duration="1732000" />
+      <workItem from="1607981763256" duration="2566000" />
     </task>
     <servers />
   </component>

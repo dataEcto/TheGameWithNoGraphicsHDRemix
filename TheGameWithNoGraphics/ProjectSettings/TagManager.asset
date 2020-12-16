@@ -11,6 +11,7 @@ TagManager:
   - pop
   - courage
   - anxiety
+  - wall
   layers:
   - Default
   - TransparentFX

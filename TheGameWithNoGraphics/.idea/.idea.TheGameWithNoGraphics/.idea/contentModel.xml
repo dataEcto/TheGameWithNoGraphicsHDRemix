@@ -962,6 +962,7 @@
             </e>
           </e>
         </e>
+        <e p="HueChanger.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BlockScript.cs" t="Include" />
           <e p="End.cs" t="Include" />
@@ -1063,7 +1064,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="TextMeshColorizer.cs" t="Include" />
       </e>
       <e p="Fungus.csproj" t="IncludeRecursive" />
       <e p="Fungus.FungusLuaEditor.csproj" t="IncludeRecursive" />

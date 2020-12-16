@@ -1064,15 +1064,10 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Where am I?
-
-
-      Lets see...I was trying to draw art for my game,
-      but I ended up here.
-
-
-      Now I''m here, wherever here is. I can''t see
-      anything...'
+    stringVal: "They call me a game designer. I call myself an artist. My friends
+      call me hopeful.\n\nI don\u2019t mind myself with labels like that anyway.
+      All that matters was working on a cool as hell game!\n\nDuring one of my late-night
+      work sessions, I ended up falling asleep and having a bizarre dream\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1116,7 +1111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286
     y: 93
-    width: 74.893616
+    width: 114.893616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1156,8 +1151,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1938935323}
-  selectedCommands:
-  - {fileID: 1938935321}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1219,7 +1213,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: 2 MainGame
+    stringVal: 2 Main
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1938935328

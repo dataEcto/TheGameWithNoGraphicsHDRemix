@@ -10,9 +10,11 @@ public class TypeActivate : MonoBehaviour
         //typingTextObject = typingTextObject.GetComponent<GameObject>();
         typingTextObject.SetActive(false);
     }
+    
+    
 
     void OnTriggerEnter(Collider other) {
-        if (other.tag == "Player") {
+        if (other.CompareTag ("Player")) {
             //Debug.Log("Trigger hit!");
             typingTextObject.SetActive(true);
         }

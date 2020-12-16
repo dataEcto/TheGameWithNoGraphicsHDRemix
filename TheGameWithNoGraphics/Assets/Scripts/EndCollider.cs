@@ -7,6 +7,8 @@ public class EndCollider : MonoBehaviour
 {
     public bool startEnding = false;
     public GameObject player;
+    public PlayerMove playerMoveScript;
+    public float flySpeed;
     
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,8 @@ public class EndCollider : MonoBehaviour
         if (startEnding == true)
         {
             Debug.Log("begin ending");
-            player.GetComponent<RectTransform>().localPosition = Vector3.up; 
+            player.transform.Translate(Vector3.up * flySpeed * Time.deltaTime);
+            playerMoveScript.enabled = false;
         }
     }
 

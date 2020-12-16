@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - TypingText
+  - code
+  - art
+  - rainbow
+  - pop
+  - courage
+  - anxiety
   layers:
   - Default
   - TransparentFX

@@ -962,73 +962,12 @@
             </e>
           </e>
         </e>
-        <e p="FungusExamples" t="Include">
-          <e p="Attribution.txt" t="Include" />
-          <e p="FirstPerson" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="ForceCursorVisible.cs" t="Include" />
-              <e p="FPDemoPriorityRouter.cs" t="Include" />
-              <e p="LookingAtDoor.cs" t="Include" />
-              <e p="SimpleForceMovement.cs" t="Include" />
-              <e p="SimpleMouseLook.cs" t="Include" />
-            </e>
-            <e p="Visuals" t="Include">
-              <e p="Google Poly" t="Include">
-                <e p="Button" t="Include">
-                  <e p="CC-BY.txt" t="Include" />
-                </e>
-                <e p="Door" t="Include">
-                  <e p="CC-BY.txt" t="Include" />
-                </e>
-                <e p="Key" t="Include">
-                  <e p="CC-BY.txt" t="Include" />
-                </e>
-                <e p="Lock" t="Include">
-                  <e p="CC-BY.txt" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-          <e p="FungusExamples.asmdef" t="Include" />
-          <e p="FungusLua" t="Include">
-            <e p="Bindings" t="Include">
-              <e p="CustomScript.cs" t="Include" />
-            </e>
-            <e p="Localization" t="Include">
-              <e p="stringtable.txt" t="Include" />
-            </e>
-            <e p="Narrative" t="Include">
-              <e p="Resources" t="Include">
-                <e p="Lua" t="Include">
-                  <e p="junglestory.txt" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-          <e p="FungusTown" t="Include">
-            <e p="readme.txt" t="Include" />
-          </e>
-          <e p="MonoBehEvents" t="Include">
-            <e p="SpriteColorChangeFromFungusMouseEvent.cs" t="Include" />
-          </e>
-          <e p="Sherlock" t="Include">
-            <e p="readme.txt" t="Include" />
-          </e>
-          <e p="TextMeshPro" t="Include">
-            <e p="TMProLinkStylingDemo.cs" t="Include" />
-          </e>
-          <e p="TheFacility" t="Include">
-            <e p="Fonts" t="Include">
-              <e p="aleo" t="Include">
-                <e p="SIL Open Font License.txt" t="Include" />
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
+          <e p="BlockScript.cs" t="Include" />
           <e p="End.cs" t="Include" />
           <e p="EndCollider.cs" t="Include" />
           <e p="EndScene.cs" t="Include" />
+          <e p="FlowchartCaller.cs" t="Include" />
           <e p="PlayerLook.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="SceneTransistions.cs" t="Include" />
@@ -1133,7 +1072,6 @@
       <e p="Fungus.UsfxrEditor.csproj" t="IncludeRecursive" />
       <e p="FungusEditor.csproj" t="IncludeRecursive" />
       <e p="FungusEditorTests.csproj" t="IncludeRecursive" />
-      <e p="FungusExamples.csproj" t="IncludeRecursive" />
       <e p="FungusPlayModeTests.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
